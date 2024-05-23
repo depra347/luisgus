@@ -1,0 +1,93 @@
+<HTML>
+	<HEAD>
+		<TITLE>FORMULARIO</TITLE>
+	</HEAD>
+	<BODY>
+<form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name">TODOS LOS VIDEOJUEGOS</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="user_mail">
+  </li>
+  <li>
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ </ul>
+</form>
+
+<section>
+    <h2>Información de contacto</h2>
+    <fieldset>
+      <legend>TIPO DE JUEGO</legend>
+      <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="K" >
+              ARCADE
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="Q">
+              SLASHER
+            </label>
+          </li>
+          <li>
+            <label for="title_3">
+              <input type="radio" id="title_3" name="title" value="J">
+              RPG
+            </label>
+          </li>
+      </ul>
+    </fieldset>
+    <p>
+      <label for="name">
+        <span>Nombre:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="name" name="username">
+    </p>
+    <p>
+      <label for="mail">
+        <Span>Correo electrónico:</ span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail">
+    </p>
+    <p>
+      <label for="pwd">
+        <span>Contraseña:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="password" id="pwd" name="password">
+    </p>
+</section>
+
+
+
+
+<form>
+  <fieldset>
+    <legend>TIPO DE CONSOLAS</legend>
+    <p>
+      <input type="radio" name="size" id="size_1" value="small">
+      <label for="size_1">PLAYSTATION </label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">XBOX</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_3" value="large">
+      <label for="size_3">NINTENDO</label>
+    </p>
+  </fieldset>
+</form>
+
+<form>
+  
